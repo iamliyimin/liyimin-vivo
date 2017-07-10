@@ -1,0 +1,12 @@
+body{
+	background: rgb(250,250,250);
+}
+.funtouch3-img{
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	height: 800px;
+	background-image: url(../img/funtouch-img/fthos-ov-high-pic.jpg);
+	background-repeat: no-repeat;
+	background-position: -290px -20px;
+}

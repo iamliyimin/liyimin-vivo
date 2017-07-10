@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>vivo Funtouch OS</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/vivo-css.css"/>
+		<link rel="stylesheet" type="text/css" href="css/funtouch-css.css"/>
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/vivo-js.js"></script>
+	</head>
+	<body>
+		<!--始终宽度100%-->
+		<nav class="navbar navbar-fixed-top" role="navigation">
+			<!--当屏幕大于一般浏览器窗口宽度时，固定宽度为1400px，以该宽度水平居中。小于或等于时，与窗口等宽-->
+			<div class="navbar-header container">
+				<!--logo-->
+				<a href="#" class="vivo-logo pull-left"></a>
+				<!--提示框-->
+				<a href="#" class="new-vivo">进入新版vivo官网</a>
+				<!--右边的小图标-->
+			    <ul class="nav-icon pull-right">
+					<li><a href="" id="login"></a></li>
+					<li><a href="" id="search"></a></li>
+					<li><a href="" id="kefu"></a></li>
+				</ul>
+				<!--小屏后的下拉导航按钮-->
+				<div class="btn-toggle collapsed pull-right" data-toggle="collapse" data-target="#collapse-dropmenu" >
+			        <b class="collapse-btn-content"></b>
+			    </div>
+			    <!--导航项-->
+			   	<div class="collapse navbar-collapse" id="collapse-dropmenu">
+					<ul class="dropmenu">
+						<li><a href="#" class="active-a">首页</a></li>
+						<li class="product">
+							<a href="vivo-product.html" class="active-a">产品</a>
+							<!--鼠标移上产品出现的下拉菜单-->
+							<div class="product-dropmenu">
+								<ul class="all-col row">
+									<li class="col-lg-12">
+										<a href="">最新 <b class="glyphicon glyphicon-menu-right"></b></a>
+										<a href="">Xplay系列 <b class="glyphicon glyphicon-menu-right"></b></a>
+										<a href="">X系列  <b class="glyphicon glyphicon-menu-right"></b></a>
+										<a href="">Y系列  <b class="glyphicon glyphicon-menu-right"></b></a>
+										<a href="">其他系列  <b class="glyphicon glyphicon-menu-right"></b></a>
+									</li>
+									<li class="col-lg-12">
+										<a href="">X9L</a>
+										<a href="">Xplay6磨砂黑</a>
+										<a href="">X9L</a>
+										<a href="">Y53</a>
+										<a href="">V3全网通</a>
+									</li>
+									<li class="col-lg-12">
+										<a href="">Y53</a>
+										<a href="">Xplay6</a>
+										<a href="">X9i</a>
+										<a href="">Y66</a>
+										<a href="">V3Max全网通</a>
+									</li >
+									<li class="col-lg-12">
+										<a href="">Xplay6磨砂黑</a>
+										<a href="">Xplay5旗舰版</a>
+										<a href="">X9Plus</a>
+										<a href="">Y67</a>
+										<a href="">V3Max</a>
+									</li>
+									<li class="col-lg-12">
+										<a href="">X9i</a>
+										<a href="">Xplay5</a>
+										<a href="">X9</a>
+										<a href="">Y55</a>
+										<a href="">V3</a>
+									</li>
+									<li class="col-lg-12">
+										<a href="">Y66</a>
+										<a href="">Xplay3S</a>
+										<a href="">X7</a>
+										<a href="">Y51电信高配版</a>
+										<a href=""></a>
+									</li>
+								</ul>
+							</div><!--product-dropmenu end-->
+						</li>
+						<li><a href="#" class="mall active-a">商城</a></li>
+						<li><a href="vivo-experience-center.html" class="center active-a">体验中心</a></li>
+						<li class="funtouch-li nav-active"><a href="#"class="funtouch active-a">Funtouch OS</a></li>
+						<li><a href="#" class="community active-a">社区</a></li>
+						<li><a href="#" class="service active-a">服务</a></li>
+					</ul>
+				</div>
+			</div><!--navbar-header end-->
+		</nav><!--navbar end-->	
+		
+		<!--大图-->
+		<a href="" class="funtouch3-img"></a>
+		<ul class="chioce3">
+			<li>
+				<a href=""><img src="img/funtouch-img/fthos-icon1.jpg"/></a>
+			</li>
+			<li>
+				<a href=""><img src="img/funtouch-img/fthos-icon2.jpg"/></a>
+			</li>
+			<li>
+				<a href=""><img src="img/funtouch-img/fthos-icon3.jpg"/></a>
+			</li>
+		</ul>
+		
+	<script type="text/javascript">
+    	//导航条
+		$(function() {
+			$(".dropmenu .funtouch-li").siblings().hover(function() {
+				$(this).addClass("nav-active");
+				$(".dropmenu .funtouch-li").removeClass("nav-active");
+			}, function() {
+				$(this).removeClass("nav-active");
+				$(".dropmenu .funtouch-li").addClass("nav-active");
+			})
+		})		
+   </script>			
+	</body>
+</html>

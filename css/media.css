@@ -1,0 +1,37 @@
+#u{
+	overflow: hidden;
+	display: block;
+	width: 50%;
+	height: 50%;
+	background-color: burlywood;
+	padding: 5% 5% 5% 5%;
+	}
+#a{ float:left; background-color: red; line-height: 60px;}
+#b{ float:left; background-color: green; line-height: 60px;}
+#c{ float:left; background-color: deepskyblue; line-height: 60px;}
+@media only screen and (max-width: 601px) {
+	li{
+	list-style: none; 
+	display: block;
+	width: 100%;
+	}
+}
+@media (min-width:600px) and (max-width: 800px) {
+	li{
+	list-style: none; 
+	display: block;
+	width: 50%;
+	
+	}
+	li#c{width: 100%;}
+	
+}
+@media (min-width:801px){
+	li{
+	list-style: none; 
+	display: block;
+	width: 30%;
+	}
+}
+
+

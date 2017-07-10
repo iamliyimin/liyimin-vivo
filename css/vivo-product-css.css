@@ -1,0 +1,313 @@
+body{
+	background: rgb(250,250,250);
+}
+.vivo-main{
+	margin-top: 0;
+}
+/*推荐产品*/
+.recommend-text, .allproduct-text{
+	display: block;
+	width: 80%;
+	height: 80px;
+	margin: auto;
+	margin-top: 90px;
+	text-align: center;
+}
+.recommend-text i,.allproduct-text i{
+	display:inline-block;
+	width: 100%;
+	overflow: hidden;
+	height: 1px;
+	margin:0;
+	margin-top: 40px;
+	background:rgb(220,220,220);
+}
+.recommend-text strong, .allproduct-text strong{
+	position: relative;
+	display: block;
+	width: 100px;
+	height: 20px;
+	margin: auto;
+	margin-top: -15px;
+	text-align: center;
+	color: #333;
+	font-weight: normal;
+	background: rgb(250,250,250);
+}
+
+/*推荐产品展示*/
+.recommend-product{
+	display:block;
+	width: 80%;
+	height: 654px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.recommend-product li{
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	height: 100%;
+}
+.recommend-product li span{
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+}
+/*推荐产品展示左边部分*/
+.recommend-product .three-product{
+	width:65%;
+	height: auto;
+	background: rgb(255,255,255);
+}
+.recommend-product .three-product a{
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.recommend-product span h5{
+	display: inline-block;
+	width: 70px;
+	height: 25px;
+	color: #008CD6;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #008CD6;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.recommend-product .three-product .X9{
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border:0.5px solid rgb(220,220,220);
+	box-sizing: border-box;
+}
+.recommend-product .three-product .X9 span{
+	float: left;
+	width: 55%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+}
+.recommend-product .three-product .X9 span img{
+	margin-top:130px;
+}
+.recommend-product .three-product span h5{
+	margin-top: 20px;
+	margin-left: -20px;
+}
+.recommend-product .three-product .X9 .X9phone-img{
+	float: left;
+	width: 45%;
+	height: 100%;
+	padding: 0;
+}
+.recommend-product .three-product .X9 .X9phone-img img{
+	float: left;
+	margin: 0;
+}
+.recommend-product .three-product .Y53,.recommend-product .three-product .Y55{
+	overflow: hidden;
+	width: 50%;
+	height: 320px;
+	border:0.5px solid rgb(220,220,220);
+	border-top: none;
+	box-sizing: border-box;
+}
+.recommend-product .three-product .Y53{
+	border-right: none;
+}
+.recommend-product .three-product .Y53 .Y53-img-title,
+.recommend-product .three-product .Y55 .Y55-img-title,
+.recommend-product .one-product .Xplay6 .Xplay6-img-title,
+.recommend-product .three-product .Y53 .Y53-img,
+.recommend-product .three-product .Y55.Y55-img{
+	width: 100%;
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom:40px ;
+}
+.recommend-product .three-product .Y53 .Y53-img-title{
+	padding-left: 30%;
+	padding-right: 30%;
+}
+.recommend-product .three-product .Y53 .Y53-img{
+	padding-left: 20%;
+	padding-right: 25%;
+	margin: auto;
+}
+.recommend-product .three-product .Y55 .Y55-img-title{
+	padding-left: 40%;
+	padding-right: 40%;
+} 
+.recommend-product .three-product .Y55 .Y55-img{
+	padding-left: 25%;
+	padding-right: 30%;
+}
+.recommend-product .three-product .Y53 .Y53-img-title h5{
+	margin-left: 30px;
+}
+.recommend-product .three-product .Y55 .Y55-img-title h5{
+	margin-left: 5px;
+}
+/*推荐产品展示右边部分*/
+.recommend-product .one-product{
+	overflow: hidden;
+	width: 35%;
+	height: 100%;
+	background: rgb(244,240,231);
+	border:0.5px solid rgb(220,220,220);
+	box-sizing: border-box;
+	border-left: none;
+}
+.recommend-product .one-product .Xplay6{
+	width: 100%;
+	height: 100%;
+}
+.recommend-product .one-product .Xplay6 .Xplay6-img-title{
+	padding-top: 25px;
+	padding-left: 35%;
+	padding-right: 30%;
+}
+.recommend-product .one-product .Xplay6 .Xplay6-img{
+	float: right;
+}
+.recommend-product .one-product .Xplay6 span h5{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+/*全部产品*/
+.allproduct-text{
+	margin-top:10px;
+}
+.allproduct-ul{
+	display:block;
+	list-style: none;
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-bottom: 100px;
+	padding: 0;
+	z-index: 2000;
+}
+.allproduct-ul li{
+	display: inline-block;
+	list-style: none;
+	float: left;
+	width: 25%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: -1px;
+	border:0.5px solid rgb(220,220,220);
+	box-sizing: border-box;
+	padding: 20px 10px 40px 10px;
+	background: rgb(255,255,255);
+}
+.allproduct-ul li h4{
+	display: block;
+	font-size: 18px;
+    color: #333;
+    padding: 5px 30px;
+    text-align: center;
+    font-weight: normal;
+}
+.allproduct-ul li:not(:first-child){
+	margin-left: -1px;
+}
+
+/*数字页码*/
+.page{
+	overflow: hidden;
+	width: 80%;
+	height: 110px;
+	margin:auto;
+	padding-top: 40px;
+	padding-left: 20%;
+	padding-right: 10%;
+	text-align: center;
+}
+.page a{
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+	width: 40px;
+	height:30px;
+	margin: auto;
+	font-size: 1.4em;
+	text-align: center;
+	color: rgba(0,0,0,0.6);
+	line-height: 20px;
+}
+.page a:first-child{
+	color: #008CD6;
+}
+.page a:hover{
+	color: #008CD6;
+}
+.page .go-left,.page .go{
+	display:inline-block;
+	text-decoration: none;
+	float: left;
+	width: 31px;
+	height: 30px;
+	margin: 0;
+	margin-top: -5px;
+	border-radius: 50%;
+}
+.page .go-left{
+	background-image: url(../img/vivo_l_pages-ico.png);
+	background-repeat: no-repeat;
+	background-position: -32px -1px;
+}
+.page .go-left:hover{
+	background-position: -32px -32px;
+}
+.page #page{
+	float: left;
+	margin: 0;
+	margin-left: 25px;
+	margin-top: -8px;
+	width: 40px;
+	height: 35px;
+	text-align: center;
+	background: rgb(245,245,245);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0,140,214,0) , 0 1px 2px rgba(0,0,0,.1) inset;
+	transition: all .3s ease-in-out;
+}
+.page h4,.page h3{
+	display: block;
+	float: left;
+	height: 30px;
+	margin-top: -5px;
+	color: rgba(0,0,0,0.6);
+	font-weight: normal;
+}
+.page h4{
+	width: 20px;
+	font-size: 1.4em;
+	margin-top: 0px;
+}
+.page h3{
+	width: 15px;
+	font-size: 2em;
+	margin-left: 10px;
+}
+.page .go, .page .go:hover{
+	margin-left: 10px;
+	margin-top: -7px;
+	line-height:30px;
+	font-size: 12px;
+	color: white;
+	background: #008CD6;
+}

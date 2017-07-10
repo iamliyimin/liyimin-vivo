@@ -1,0 +1,345 @@
+body{
+	background: rgba(255,255,255,1);
+}
+/*中间的大图*/
+.main1-big-img{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	margin-top: 81px;
+	padding: 0;
+	background-image: url(../img/index.jpg);
+	background-repeat: no-repeat;
+	background-position: -255px 0;
+	background-size: 135% 100%;
+}
+.vivo-main{
+	background: rgba(255,255,255,1);
+}
+/*中间第二个盒子*/
+.mian2-wrap,.main3-wrap,.main4-wrap{
+	overflow: hidden;
+	width: 70%;
+	margin:0 auto;
+	margin-top: 10px;
+	padding: 0;
+}
+.mian2-wrap,.main4-wrap{
+	height: 60px;	
+}
+.mian2-wrap h3,.mian2-wrap a{
+	display: inline-block;
+	float: left;
+	width: 12%;
+	height: 100%;
+	line-height: 60px;
+	margin: 0;
+}
+.mian2-wrap h3,.main4-wrap h3{
+	color: rgba(0,0,0,1);
+}
+.mian2-wrap a ,.mian2-wrap a:hover{
+	text-decoration: none;
+	color: #008CD6;
+}
+.mian2-wrap span,.mian2-wrap span h4,.mian2-wrap span select{
+	display: inline-block;
+	float: left;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.mian2-wrap span{
+	width: 20%;
+	margin-left:30px ;
+}
+.mian2-wrap span h4{
+	width: 30%;
+	line-height: 60px;
+	color: rgba(0,0,0,0.7);
+}
+.mian2-wrap span select{
+	width: 70%;
+	height: 60%;
+	margin-top: 13px;
+	border-style: none;
+	border: 1.2px solid rgb(220,220,220);
+}
+.try-to-search{
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	overflow: hidden;
+}
+.try-to-search input, .try-to-search button{
+	float: left;
+	margin-top: 13px;
+	height: 60%;
+}
+.try-to-search input{
+	width: 70%;
+}
+.try-to-search button{
+	width: 30%;
+}
+/*中间第三个盒子*/
+.main3-wrap{
+	height: 450px;
+	margin-top:50px ;
+}
+.main3-wrap a{
+	overflow: hidden;
+	display: inline-block;
+	text-decoration: none;
+	width: 48%;
+	height: 155px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 60px;
+}
+.main3-wrap a:nth-child(2){
+	/*padding-left:70px;*/
+	margin-left: 35px;
+}
+.main3-wrap a img{
+	float: left;
+	width: 55%;
+	height:auto;
+	transition: all .3s ease-in-out;
+}
+.main3-wrap a span{
+	overflow: hidden;
+	float: left;
+	width: 45%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.main3-wrap a span h4{
+	display: inline-block;
+	width: 90%;
+	height:20px ;
+	margin: 0 auto;
+	text-align: left;
+	color: rgba(0,0,0,0.7);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
+.main3-wrap a span h4,.main3-wrap a span b,.main3-wrap a span i,.main3-wrap a span h5{
+	margin-left:25px;
+}
+.main3-wrap a span i,.main5-wrap li span i{
+	display: inline-block;
+	float: left;
+	padding: 0;
+}
+.main3-wrap .changsha span .star{
+	width: 50%;
+	height: 14px;
+	margin-top: 4px;
+	background-image: url(../img/exper-star.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -70px;
+}
+.main3-wrap .jilin span .star{
+	width: 50%;
+	height: 14px;
+	margin-top: 4px;
+	background-image: url(../img/exper-star.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -70px;
+}
+.main3-wrap .quanzhou span .star{
+	width: 50%;
+	height: 14px;
+	margin-top: 4px;
+	background-image: url(../img/exper-star.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px -70px;
+}
+.main3-wrap a span b{
+	display: inline-block;
+	width: 80%;
+	height: 40%;
+	margin-top: 10px;
+}
+.main3-wrap a span .location{
+	width: 13%;
+	height: 25px;
+	margin-left: 0;
+	background-image: url(../img/exper-icon.png);
+	background-repeat: no-repeat;
+	background-position: -100px -58px;
+}
+.main3-wrap a span b h5{
+	display: inline-block;
+	width: 87%;
+	line-height: 18px;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+.main3-wrap h5{
+	color: rgba(0,0,0,0.5);
+}
+.main3-wrap a span h5{
+	display: inline-block;
+	width: 80%;
+	height:10%;
+	font-size: 1.1em;
+	margin-top: 10px;
+}
+.main3-wrap a span h5 .phone{
+	width: 13%;
+	height: 25px;
+	margin-left: 0;
+	background-image: url(../img/exper-icon.png);
+	background-repeat: no-repeat;
+	background-position: -100px -88px;
+}
+.main3-wrap a:hover img{
+	opacity: 0.8;
+}
+.main3-wrap a:hover h5{
+	color: #008CD6;
+}
+/*中间第四个盒子*/
+.main4-wrap {
+	margin-top: 30px;
+	padding-top: 10px;
+	border-top: 1px solid rgb(220,220,220);
+}
+/*中间第五个盒子*/
+.main5-wrap,.main6-wrap{
+	display:block;
+	list-style: none;
+	width: 70%;
+	height: auto;
+	margin:0 auto;
+	margin-top:20px;
+	padding: 0;
+	padding-bottom: 30px;
+	border-bottom: 1px solid rgb(220,220,220);
+}
+.main5-wrap li{
+	overflow: hidden;
+	display: inline-block;
+	list-style: none;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 30px;
+}
+.main5-wrap li img{
+	float: left;
+	width: 32%;
+	height: 100%;
+}
+.main5-wrap li span{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	margin: 0;
+	margin-left: 3%;
+	padding: 0;
+}
+.main5-wrap li span h4{
+	display: inline-block;
+	width: 100%;
+	height: 25px;
+	margin-top: -3px;
+	font-size: 1.2em;
+	color: rgba(0,0,0,0.8);
+}
+.main5-wrap li span .location{
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/exper-icon.png);
+	background-repeat: no-repeat;
+	background-position: -100px -58px;
+}
+.main5-wrap li span b{
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+	font-size: 1.1em;
+	color: rgba(0,0,0,0.7);
+}
+.main5-wrap li span b .time{
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	background-image: url(../img/exper-icon.png);
+	background-repeat: no-repeat;
+	background-position: -130px 9px;
+}
+.main5-wrap li span h6{
+	display: inline-block;
+	width: 100%;
+	font-size: 1.1em;
+	color: rgba(0,0,0,0.7);
+}
+.main5-wrap li span h6 .flag{
+	width: 25px;
+	height: 25px;
+	margin: 0;
+	background-image: url(../img/exper-icon.png);
+	background-repeat: no-repeat;
+	background-position: -130px -30px;
+}
+.main5-wrap li a{
+	display: inline-block;
+	text-decoration: none;
+	width: 15%;
+	height: 40px;
+	margin-top: 20px;
+	text-align: center;
+	line-height:40px;
+	color: white;
+	background: #008CD6;
+	border-radius: 3px;
+}
+/*中间第六个盒子*/
+.main6-wrap {
+	overflow: hidden;
+	border-bottom-style: none;
+	padding-bottom: 200px;
+}
+.main6-wrap li{
+	display: inline-block;
+	float: left;
+	list-style: none;
+	width: 33%;
+	height: 200px;
+	margin-left: 2px;
+	padding-left:20px ;
+	box-sizing: border-box;
+	transition: opacity .3s ease-in-out;
+}
+.main6-wrap li:hover{
+	opacity: 0.7;
+}
+.main6-wrap li img{
+	width: 100%;
+	height: 100%;
+}
+.main6-wrap li:first-child{
+	padding-left:0px ;
+}
+.main6-wrap li h4{
+	display: inline-block;
+	width: 100%;
+	height: 35px;
+	font-size: 1.3em;
+	text-align: center;
+	color: rgba(0,0,0,1);
+}
+.main6-wrap li h5{
+	font-size: 14px;
+	line-height: 20px;
+}
+.mian2-wrap,.main3-wrap,.main4-wrap,.mian5-wrap,.main6-wrap,ul,li{
+	background: rgb(255,255,255);
+}
